@@ -61,7 +61,7 @@ jobs:
           fi
 
       - name: Collect
-        run: python -u subscribe/collect.py --all --both --overwrite --easygoing
+        run: python -u subscribe/collect.py --all --overwrite --easygoing
 
       - name: Timestamp
         run: date
