@@ -65,7 +65,7 @@ jobs:
           fi
 
       - name: Collect
-        run: python -u subscribe/collect.py -a -e -s
+        run: python -u subscribe/collect.py -a -e
 
       - name: Timestamp
         run: date
